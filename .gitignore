@@ -1,0 +1,32 @@
+# Ignore backup and swap files
+*.swp
+*.swo
+*~
+*.bak
+
+# Ignore undo files
+*.un~
+
+# Ignore netrw history
+.netrwhist
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore spell files
+*.spl
+
+# Ignore compiled packs/packfiles
+pack/**/doc/tags
+pack/**/doc/tags-??
+
+# Ignore plugin directories
+pack/
+
+# Ignore session files
+Session.vim
+Sessionx.vim
+
+# Ignore temporary files
+*.tmp
+*.temp
