@@ -1,8 +1,8 @@
+vim.opt.number = true
+vim.opt.relativenumber = true     -- Enable relative numbers (hybrid mode)
+
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-
-vim.opt.number = true
---vim.opt.relativenumber = true     -- Enable relative numbers (hybrid mode)
 
 -- Persistent undo
 vim.o.undofile = true
